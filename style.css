@@ -1,0 +1,284 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: rgb(255,255,255);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+ 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+
+}
+.logo-gucci{
+    width: 143px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 16px;
+    list-style: none;;
+}
+.fondo a{
+    text-decoration: none;
+    color: black;
+ 
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+i{
+    color: black;
+}
+
+.contacto{
+    font-size: 12px;
+    font-weight: 700;
+}
+.menu{
+    margin-right: 10px;
+}
+
+.plus{
+    margin-right: 5px;
+}
+
+@media(width < 768px){
+    .contacto-div{
+        display: none;
+    }
+ 
+}
+
+@media(width < 420px){
+  nav{
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+   
+}
+
+
+.fondo{
+    background-image: url(images/fondodefinitivo-gucci.jpg);
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	background-color: black;
+	background-position: center;
+    min-height: 950px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.fondo-oscuro{
+position: absolute;
+background-color: black;
+left: 0;
+top: 0;
+width: 100%;
+height:100%;
+opacity: 0.4;
+
+}
+.container-section1{
+    color: white;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
+
+.container-section1 h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.container-botones a{
+background-color: white;
+color: black;
+font-weight: 600;
+padding: 16px 24px;
+border-radius: 2px;
+font-size: 12px;
+transition: transform 0.5s ease;
+}
+
+.container-botones a:hover {
+    transform: scale(0.9);
+
+}
+
+.container-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.container-buttons-text{
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+}
+#destacados{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#destacados h1{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-galeria-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.modelo img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.container-destacados{
+    padding: 40px 0;
+}
+.container-destacados p {
+    margin-bottom: 80px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.container-galeria-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#servicios{
+
+}
+
+.container-servicios-main h2{
+ text-align: center;
+ font-size: 30px;
+ font-weight: 300;
+ margin-bottom: 80px;
+}
+
+.container-servicios-main{
+    padding: 50px 0;
+    padding: 100px;
+}
+.container-servicios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.servicios{
+    max-width:  410.67px ;
+    height: 690.67px ;
+    position: relative;
+   
+}
+.servicios h3{
+   text-align: center;
+   font-size: 15px;
+   font-weight: 600;
+   margin-top: 32px;
+}
+.servicios p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0 20px;
+   
+ }
+
+.servicio-image img{ 
+    width: 410.67px;
+    height: 410.67px;
+    object-fit: cover;
+}
+
+.enlace{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+}
+.enlace a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+.boton {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    background-color: rgb(27,27,27); 
+    color: white; 
+    border: none;
+    border-radius: 50%;
+    padding: 15px 18px ;
+    cursor: pointer; 
+    z-index: 2;
+    transition: transform 0.5s ease;
+    box-shadow: 8px 12px 15px 5px rgba(0,0,0,0.1);
+    
+}
+
+.boton i{
+    color: white;
+    font-size: 30px;
+    
+}
+.boton:hover {
+    transform: scale(0.9);
+}
+
+
